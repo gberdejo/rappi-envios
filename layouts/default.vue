@@ -27,7 +27,7 @@
           :link="{
             name: $t('sidebar.maps'),
             icon: 'tim-icons icon-pin',
-            path: '/google'
+            path: '/maps'
           }"
         >
         </sidebar-item>
@@ -81,7 +81,7 @@
           <nuxt></nuxt>
         </zoom-center-transition>
       </div>
-      <content-footer v-if="!isFullScreenRoute"></content-footer>
+      <!-- <content-footer v-if="!isFullScreenRoute"></content-footer> -->
     </div>
   </div>
 </template>
