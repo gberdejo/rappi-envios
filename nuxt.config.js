@@ -14,6 +14,9 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
 export default {
+  server: {
+    port: process.env.PORT || 4000
+  },
   mode: "universal",
   /*
    ** Headers of the page
