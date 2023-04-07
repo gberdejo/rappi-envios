@@ -49,8 +49,10 @@ export default {
       class: "", // Add `white-content` class here to enable "white" mode.
     },
   },
+  target: 'static', // Use GitHub Pages
   router: {
-    linkExactActiveClass: "active",
+    // linkExactActiveClass: "active",
+    base: 'rappi-envios' // Use GitHub Pages
   },
   /*
    ** Customize the progress-bar color
