@@ -65,12 +65,12 @@
           }"
         ></sidebar-item>
 
-        <sidebar-item
+        <!-- <sidebar-item
           :link="{
             name: $t('sidebar.rtl'),
             icon: 'tim-icons icon-world',
             path: localePath('/rtl', 'ar') }"
-        ></sidebar-item>
+        ></sidebar-item> -->
 
         <li class="active-pro">
           <a href="https://www.creative-tim.com/product/nuxt-black-dashboard-pro" target="_blank">
