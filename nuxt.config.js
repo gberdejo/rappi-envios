@@ -51,8 +51,8 @@ export default {
   },
   target: 'static', // Use GitHub Pages
   router: {
-    // linkExactActiveClass: "active",
-    base: 'rappi-envios' // Use GitHub Pages
+    linkExactActiveClass: "active",
+    // base: 'rappi-envios' // Use GitHub Pages
   },
   /*
    ** Customize the progress-bar color
