@@ -97,7 +97,7 @@ export default {
    ** Build configuration
    */
   build: {
-    transpile: [/^element-ui/, 'ol'],
+    transpile: [/^element-ui/],
     /*
      ** You can extend webpack config here
      */
