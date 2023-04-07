@@ -6,7 +6,7 @@
       :short-title="$t('sidebar.shortTitle')"
       :title="$t('sidebar.title')"
     >
-      <template slot-scope="props" slot="links">
+      <template slot="links">
         <sidebar-item
           :link="{
             name: $t('sidebar.dashboard'),
@@ -64,24 +64,10 @@
             path: '/typography'
           }"
         ></sidebar-item>
-
-        <!-- <sidebar-item
-          :link="{
-            name: $t('sidebar.rtl'),
-            icon: 'tim-icons icon-world',
-            path: localePath('/rtl', 'ar') }"
-        ></sidebar-item> -->
-
-        <li class="active-pro">
-          <a href="https://www.creative-tim.com/product/nuxt-black-dashboard-pro" target="_blank">
-            <i class="tim-icons icon-spaceship"></i>
-            <p>Upgrade to PRO</p>
-          </a>
-        </li>
       </template>
     </side-bar>
     <!--Share plugin (for demo purposes). You can remove it if don't plan on using it-->
-    <sidebar-share :background-color.sync="sidebarBackground"> </sidebar-share>
+    <!-- <sidebar-share :background-color.sync="sidebarBackground"> </sidebar-share> -->
     <div class="main-panel" :data="sidebarBackground">
       <dashboard-navbar></dashboard-navbar>
       <router-view name="header"></router-view>
