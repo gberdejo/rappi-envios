@@ -14,6 +14,12 @@
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
  */
 export default {
+  components: [
+    {
+      path: '~/components', // will get any components nested in let's say /components/test too
+      pathPrefix: false,
+    },
+  ],
   server: {
     port: process.env.PORT || 4000
   },
@@ -22,7 +28,7 @@ export default {
    ** Headers of the page
    */
   head: {
-    title: "Nuxt Black Dashboard",
+    title: "Rppi Envios",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
